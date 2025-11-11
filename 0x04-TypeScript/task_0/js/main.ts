@@ -5,3 +5,17 @@ interface Student {
   location: string;
 }
 
+const studentsList: Student[] = [
+  {
+    firstName: "John",
+    lastName: "Doe",
+    age: "20",
+    location: "New York"
+  },
+  {
+    firstName: "Jane",
+    lastName: "Smith",
+    age: "22",
+    location: "London"
+  }
+];
